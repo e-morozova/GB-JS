@@ -90,8 +90,8 @@ for(let j = 0; j < 10; j++, console.log(j-1)) {
 
 // задание № 4
 
-var pyramid = "";
- for(var i = 1; i < 20; i++) {
+let pyramid = "";
+ for(let i = 1; i < 20; i++) {
    pyramid += "*";
    console.log(pyramid);
  }
